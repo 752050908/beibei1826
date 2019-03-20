@@ -1,27 +1,33 @@
 //导入所需插件 
-const gulp = require('gulp'),
-	  uglify = require('gulp-uglify'),
-	  rename = require('gulp-rename'),
-	  concat = require('gulp-concat');
+const gulp = require('gulp');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const concat = require('gulp-concat');
 const babel = require('gulp-babel');
-const cssmin = require("gulp-cssmin");
-const imagemin = require("gulp-imagemin");
-const sass = require("gulp-sass")
-	  
-//发布任务
-//es6===>es5
-/*gulp.task('es6',()=>{
-	 gulp.src('src/ES6JS/*.js')
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
-        .pipe(gulp.dest('./src/ES5JS'))
-})*/
-//处理js任务
-/*gulp.task('js',function(){
-	gulp.src('./src/ES5JS/*.js')
+const cssmin = require('gulp-cssmin');
+const imagemin = require('gulp-imagemin');
+const sass = require('gulp-sass');
+
+
+	 
+gulp.task("sassmin",function(){
+	gulp.src("./src/scss/*.scss")
+	.pipe(sass())
+	.pipe(cssmin())
+	.pipe(rename({"suffix":".min"}))
+	.pipe(gulp.dest("./dest/css"))
+})
+
+gulp.task("babelUglify",function  () {
+	gulp.src("./src/Es6js/*.js")
+	.pipe(babel({
+		presets:["@babel/env"]
+	}))
 	.pipe(uglify())
-	//.pipe(rename({"suffix" : ".min"}))
-	.pipe(concat('main.min.js'))
-	.pipe(gulp.dest('./src/srcJs'));
-})*/
+	.pipe(rename({"suffix":".min"}))
+	.pipe(gulp.dest("./dest/Es5js"))
+})
+
+ gulp.task("watch",function  () {
+ 	gulp.watch(["./src/scss/*.scss","./src/Es6js/*.js"],["sassmin","babelUglify"])
+ })
