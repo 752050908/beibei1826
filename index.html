@@ -3,7 +3,409 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="dest/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="dest/css/index.min.css"/>
+		<link rel="stylesheet" type="text/css" href="dest/css/public.min.css"/>
+		<link rel="stylesheet" type="text/css" href="dest/css/public1.min.css"/>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
 	</head>
 	<body>
+		<!--top-->
+		<div id="top">
+			<div class="topCon">
+				<ul>
+					<li class="li1">你好，
+						<a href="register.html">请登录</a>
+						<a href="login.html">免费注册</a>
+					</li>
+					<li class="li2"></li>
+					<li>
+						<a href="">商家入驻</a>
+					</li>
+					<li class="li2"></li>
+					<li class="li3">
+						<a href="">贝贝商家中心&nbsp;∨&nbsp;</a>
+						<div>
+							<a href="">贝贝商家中心&nbsp;∨</a>
+							<a href="">贝店商家中心&nbsp;</a>
+							<a href="">友团商家中心&nbsp;</a>
+							<a href="">&nbsp;购友商家中心&nbsp;&nbsp;</a>
+						</div>
+					</li>
+					<li class="li2"></li>
+					<li class="li4">
+						<span class="iconfont icon-xin"></span>
+						<a href="">
+							帮助中心&nbsp;∨
+						</a>
+						<div>
+							<span class="iconfont icon-xin"></span>
+							<a href="">
+								帮助中心&nbsp;∨&nbsp;
+							</a>
+							<span class="iconfont icon-kefu2"></span>
+							<a href="">
+								联系客服&nbsp;&nbsp;&nbsp;
+							</a>
+							
+						</div>
+					</li>
+					<li class="li2"></li>
+					<li class="li5">
+						<a href="">关注&nbsp;∨</a>
+						<div class="li5-down">
+							<div>
+								<dd>微信号:beibeiclub</dd>
+								<dt><img src="src/image/beibeiclub_90.png" alt="" /></dt>
+								<dd>订阅贝贝官方微信</dd>
+							</div>
+							<dl>
+								<a href="#"><img src="src/image/qzone_45x45.png" alt="" /></a>
+								<a href="#"><img src="src/image/weibo_45x45.png" alt="" /></a>
+							</dl>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--header-->
+		<header>
+			<div class="con">
+				<a href="index.html" class="a1"><img src="src/image/113f25eac3906f0d_114x60.jpg"/></a>
+				<a href="#" class="a2"><img src="src/image/upload_ae75f583dcb3536e115449a11bde5434_390x40.png"/></a>
+				<div class="a3">
+					我的购物车&nbsp;<span class="iconfont icon-shandian3"></span>
+					<div class="top-cart">
+						<span class="iconfont icon-gouwuchekong"></span>
+					</div>
+					<div class="top-cart-down">
+						<p class="p1">
+							<span class="p1-span">赶快去挑选商品吧</span>
+						</p>	
+						<p class="p2">
+							<span class="span1">小计：<i>￥0.00</i></span>
+							<a href="#" class="a4"><span class="iconfont icon-tuya_huabanfuben"></span>去购物车结算</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--nav-->
+		<div id="nav">
+			<div class="nav-con">
+					<a class="aa" style="background: red;">首页</a>
+					<a class="aa" href="">贝贝APP</a>
+					<a class="aa" href="">贝店</a>
+					<a class="aa" href="">友团</a>
+					<a class="aa" href="">贝贷</a>
+					<a class="aa" href="" style="position:relative;">商家入驻<i><img src="src/image/upload_829e7d60f494bb7159132f6c5181c30b_54x36.png" alt="" /></i></a>
+					<div class="con-r">
+						<div class="con-r-l">
+							<a href="" class="con-r-l-a">在售分类 ∨</a>
+							<div class="con-r-down">
+								<ul class="down-ul-l">
+									<li>热销分类</li>
+									<li>儿童服饰</li>
+									<li>婴儿装</li>
+									<li>婴童鞋</li>
+									<li>奶粉辅食</li>
+									<li>纸尿裤</li>
+									<li>哺育喂养</li>
+									<li>洗护清洁</li>
+									<li>睡眠出行</li>
+									<li>玩具文体</li>
+									<li>孕妈专区</li>
+									<li>流行服饰</li>
+									<li>鞋包配饰</li>
+									<li>居家百货</li>
+									<li>美妆个护</li>
+								</ul>
+								<!--<ul class="down-ul-r hid">
+									<li>
+										<a href="" id="li-a">
+											<img src="./src/image/47777251304120_150x150.png!60x60.jpg" alt="" />
+											<label>纸尿布</label>
+										</a>	
+									</li>
+								</ul>-->
+							</div>
+						</div>
+						<input type="text" name="navTxt" id="navTxt" placeholder="搜索商品或品牌" />
+						<ul id = "navUl"></ul>
+						<span class="iconfont icon-xiaolian8"></span>
+					</div>
+			</div>
+		</div>
+		<!--min-nav-->
+		<div id="min-nav">
+			<div class="min-nav-con">
+				<ul>
+					<li><a href="#"><span>套装</span></a></li>
+					<li><a href="#"><span>母婴</span></a></li>
+					<li><a href="#"><span>居家</span></a></li>
+					<li><a href="#"><span>美食</span></a></li>
+					<li><a href="#"><span>女装</span></a></li>
+					<li><a href="#"><span>鞋包</span></a></li>
+					<li><a href="#"><span>美妆</span></a></li>
+					<li><a href="#"><span>奶粉</span></a></li>
+					<li><a href="#"><span>纸尿裤</span></a></li>
+					<li class="li10"><a href="#"><span class="iconfont icon-xin1"></span>&nbsp;精彩预告</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--bigimage-->
+		<div id="bigimage">
+			<div class="bigimg">
+				<a href="">
+					<img class="img1" src="src/image/2b854f081a7c2e70_1400x320.png"/>
+				</a>
+				<div class="bigimg-r">
+					<!--<a href="">
+						<img src="src/image/bigimg1.jpg" alt="" />
+						<p>限量99件</p>
+						<p class="p2">￥28.9</p>
+					</a>
+					<a href="">
+						<img src="" alt="" />
+						<p></p>
+						<p></p>
+					</a>
+					<a href="">
+						<img src="" alt="" />
+						<p></p>
+						<p></p>
+					</a>
+					<a href="">
+						<img src="" alt="" />
+						<p></p>
+						<p></p>
+					</a>-->
+				</div>
+			</div>
+		</div>
+		<!--内容区的顶部 今日特卖-->
+		<div id="con-top">
+			<div class="con-top-c">
+				<div class="top-con">
+					<span class="span1">今日特卖&nbsp;·</span>
+					<span class="span2">每天9点准时上新</span>
+				</div>
+			</div>
+		</div>
+		<!--内容区 左侧大图片区-->
+		<div id="bigImgContent">
+			<div class="bigImg-con">
+				<div class="bigImg-con-l">
+					<!--<a class="con-r-l-aa" href="#">
+						<img src="src/image/conA.jpg" alt="" />
+						<p class="con-l-p">【16.9/2双】情侣款卡通厚底防滑凉拖鞋都是屁屁</p>
+						<div class="con-l-div">
+							<span class="div-span1">￥16<sub>.90</sub></span>&nbsp;
+							<span class="div-span2">￥39</span>
+							<span class="div-span3">4.4折</span>
+						</div>
+					</a>-->
+				</div>
+				<div class="bigImg-con-r">
+					<div class="bigImg-con-r-con">
+						<div class="con-top-hot">
+							<span class="iconfont icon-remen4"></span>热卖排行榜
+						</div>
+						<div class="con-lists">
+							<ul class="con-lists-top-ul">
+								<li>童装</li>
+								<li>童鞋</li>
+								<li>玩具</li>
+								<li style="border-right:none ;width:60px;">用品</li>
+							</ul>
+							<div class="con-lists-ul-box">
+								<!--<ul class="con-lists-con-ul">
+									<li class="con-lists-con-ul-li">
+										<a class="con-ul-li-a"  href="">
+											<img src="src/image/conRight.jpg" alt="" />
+											<div class="con-ul-li-a-r">
+												<p class="li-a-r-p">贝壳元素男童长袖t恤 春季新款韩版童装儿童宝宝卡通t恤打底衫tx-411</p>
+												<span>￥35.00</span>&nbsp;
+												<span>￥105</span>
+											</div>
+										</a>
+									</li>
+								</ul>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--点击会加载内容区内容-->
+		<div id="clickLoad">
+			点击展开更多精彩 <i>∨</i>
+		</div>
+		<!--下部大图区-->
+		<div id="bottomImg">
+			<img src="src/image/upload_8c117b025f439e5a9b60d325d7980b20_1920x148.png" alt="" />
+		</div>
+		<!--下部列表选项区-->
+		<div id="bottomLists">
+			<div class="botLists">
+				<div class="botLists-con">
+					<dl style="border: none;">
+						<dt><span class="iconfont icon-kefu3"></span>&nbsp;新手指南</dt>
+						<dd><a href="">·注册登录</a></dd>
+						<dd><a href="">·抢购商品</a></dd>
+						<dd><a href="">·购物车操作</a></dd>
+						<dd><a href="">·下单支付</a></dd>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-xin3"></span>&nbsp常见问题</dt>
+						<dd><a href="">·热门常见问题</a></dd>
+						<dd><a href="">·退款/退货相关</a></dd>
+						<dd><a href="">·发货相关</a></dd>
+						<dd><a href="">·平台交易规则</a></dd>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-wo"></span>&nbsp账号管理</dt>
+						<dd><a href="">·热门常见问题</a></dd>
+						<dd><a href="">·退款/退货相关</a></dd>
+						<dd><a href="">·发货相关</a></dd>
+						<dd><a href="">·平台交易规则</a></dd>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-zhifubaoa"></span>&nbsp支付管理</dt>
+						<dd><a href="">·热门常见问题</a></dd>
+						<dd><a href="">·退款/退货相关</a></dd>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-4"></span>&nbsp配送相关</dt>
+						<dd><a href="">·热门常见问题</a></dd>
+						<dd><a href="">·退款/退货相关</a></dd>
+						<dd><a href="">·发货相关</a></dd>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-xiaolian1"></span>&nbsp消费者保障</dt>
+						<dd><a href="">·热门常见问题</a></dd>
+						<dd><a href="">·退款/退货相关</a></dd>
+						<dd><a href="">·发货相关</a></dd>
+						<dd><a href="">·平台交易规则</a></dd>
+						<dd><a href="">·发货相关</a></dd>
+					</dl>
+					<dl class="dlLast">
+						<div class="dl-right">
+							<p>关注社区<br /><span>优惠特卖早知道</span></p>
+							<p>
+								&nbsp;<a href=""></a>
+								<a href=""></a>
+							</p>
+						</div>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!--下部包邮 7天无理由退款图片区 -->
+		<div class="footer-big-img">
+			<a class="footer-big-img-a" href=""><img src="src/image/zpby.png" alt="" /></a>
+		</div>
+		<!--下部导航区-->
+		<div id="footer">
+			<div class="footer-nav">
+				<a href="#">首页</a>|
+				<a href="#">关于贝贝</a>|
+				<a href="#">商家入驻</a>|
+				<a href="#">正品保证</a>|
+				<a href="#">人才招聘</a>|
+				<a href="#">联系我们</a>|
+				<a href="#">帮助中心</a>|
+				<a href="#">友情链接</a>|
+				<a href="#">手机客户端</a>|
+				<a href="#">客服中心</a>|
+				<a href="#">贝贝公益</a>|
+				<a href="#">品质健康</a>|
+				<a href="#">育儿社区</a>
+			</div>
+			<div class="footer-con">
+				<p class="footer-con-p">
+					浙ICP备14025287号 |
+                    食品流通许可证：SP3301041510054925 |
+                    出版物经营许可证：新出发零字第00086号 |
+                    <a href=""><img src="src/image/gh.png"/>浙公网安备 33010402000616号</a>
+				</p>
+				<p class="footer-con-p1">© 2014-2018 <a href="">杭州贝购科技有限公司 </a>All Rights Reserved. 客服热线：0571-10107788 </p>
+				<div class="footer-min-box">
+					<img src="src/image/kxwz.png" alt="" />&nbsp;
+					<img src="src/image/cxwz.png" alt="" />
+					<img src="src/image/hzgs.png" alt="" />
+				</div>
+			</div>
+		</div>
+		
+		<!--固定定位导航栏 右边栏-->
+		<div id="fixed-box">
+			<div class="fixed-boxA">
+				<div class="fixed-boxA1">
+					<span class="iconfont icon-gouwuche"></span>
+					<em>0</em>
+				</div>
+				<div class="fixed-boxA2">
+					<div class="top-cart-down">
+						<p class="p1">
+							<span class="p1-span">赶快去挑选商品吧</span>
+						</p>	
+						<p class="p2">
+							<span class="span1">小计：<i>￥0.00</i></span>
+							<a href="#" class="a4"><span class="iconfont icon-tuya_huabanfuben"></span>去购物车结算</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="fixed-boxA">
+				<div class="fixed-boxA1">
+					<span class="iconfont icon-dianhua6"></span>
+				</div>
+				<div class="fixed-boxA2 B2">
+					<p>下载手机APP</p>
+					<p>随时随地看新闻</p>
+					<img src="src/image/beibeiclub_90.png"/>
+				</div>
+			</div>
+			<div class="fixed-boxA">
+				<div class="fixed-boxA1">
+					<span class="iconfont icon-zixun2"></span>
+				</div>
+				<div class="fixed-boxA2 C2" >
+					在线客服
+				</div>
+			</div>
+			<div class="fixed-boxA">
+				<div class="fixed-boxA1">
+					<span class="iconfont icon-feiji7">top</span>
+				</div>
+				<div class="fixed-boxA2 D2">
+					返回顶部
+				</div>
+			</div>
+		</div>
+		<!--吸顶效果-->
+		<div id="ceil">
+			<div class="min-nav-con ceiling">
+				<a href=""><img src="src/image/bbb.png"/></a>
+				<ul>
+					<li style="margin-left:20px;"><a href="#"><span>童装</span></a></li>
+					<li><a href="#"><span>母婴</span></a></li>
+					<li><a href="#"><span>居家</span></a></li>
+					<li><a href="#"><span>美食</span></a></li>
+					<li><a href="#"><span>女装</span></a></li>
+					<li><a href="#"><span>鞋包</span></a></li>
+					<li><a href="#"><span>美妆</span></a></li>
+					<li><a href="#"><span>奶粉</span></a></li>
+					<li><a href="#"><span>纸尿裤</span></a></li>
+					<li class="li11"><a href="#"><span class="iconfont icon-xiaolian8"></span>&nbsp;限量购</a></li>
+					<li class="li10"><a href="#"><span class="iconfont icon-feiji6"></span>&nbsp;全球购</a></li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>
+<script type="text/javascript" src="src/Es6js/jquery-1.11.3.js" ></script>
+<script type="text/javascript" src="src/Es6js/common.js" ></script>
+<script type="text/javascript" src="src/Es6js/jquery.cookie.js" ></script>
+<script type="text/javascript" src="src/Es6js/index.js" ></script>

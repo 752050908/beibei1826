@@ -1,0 +1,88 @@
+//页面logo和底部公共样式
+#header{
+    width:100%;
+    .header-con{
+        width: 1080px;
+        height:60px;
+        margin:0 auto;
+        padding-top:45px;
+        .header-con-l{
+            height:60px;
+            width: 114px;
+            float:left;
+            .ra1{
+                width: 114px;
+                height: 60px;
+                display: inline-block;
+                background:url(../../src/image/113f25eac3906f0d_114x60.jpg)
+            }
+        }
+        .header-con-r{
+            height:60px;
+            width: 360px;
+            float:right;
+            .ra2{
+                width: 360px;
+                height: 50px;
+                display: inline-block;
+                background:url(../../src/image/upload_ae75f583dcb3536e115449a11bde5434_390x40.png)no-repeat;
+            }
+        }
+    }
+}
+
+
+//底部公共样式
+#footer{
+    border-top:3px solid deeppink;
+    .footer-nav{
+        background:#323232;
+        text-align: center;
+        font-size:10px;
+        color:#fff;
+        padding:10px 0;
+        a{
+            margin:0 10px;
+            font-size:12px;
+            color:#fff;
+        }
+    }
+    .footer-con{
+        background: #fff;
+        padding:20px 0 40px 0;
+        .footer-con-p{
+            font-size:12px;
+            color:#ccc;
+            text-align: center;
+            a{
+                font-size:12px;
+                color:#ccc;
+                display: inline-block;
+                img{
+                    display: inline-block;
+                    vertical-align: middle;
+                }    
+            }
+        }
+        .footer-con-p1{
+            font-size:12px;
+            color:#ccc;
+            text-align: center;
+            margin-top:8px;
+            a{
+                color:#ccc;
+            }
+        }
+        .footer-min-box{
+            margin:0 auto;
+            width: 1080px;
+            text-align: center;
+            padding-top:22px;
+            img{
+            display: inline-block;
+                width: 90px;
+                height: 32px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"bigImg":[
+		{
+			"id":"bigimg1",
+			"src":"bigimg1.jpg",
+			"name":"限量999件",
+			"price":"￥28.9"
+		},
+		{
+			"id":"bigimg2",
+			"src":"bigimg2.jpg",
+			"name":"限量999件",
+			"price":"￥22.9"
+		},
+		{
+			"id":"bigimg3",
+			"src":"bigimg3.jpg",
+			"name":"限量500件",
+			"price":"￥69"
+		},
+		{
+			"id":"bigimg4",
+			"src":"bigimg4.jpg",
+			"name":"限量500件",
+			"price":"￥49"
+		}
+	]
+}

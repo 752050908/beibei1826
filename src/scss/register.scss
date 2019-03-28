@@ -1,0 +1,202 @@
+@import "public";
+#content{
+    width:100%;
+    overflow: hidden;
+    .log-con{
+        width: 1080px;
+        height:354px;
+        margin:100px auto;
+       .log-con-l{
+            margin:0 0 250px 50px;
+            float:left;
+            height: 354px;
+            width: 500px;
+            background:url(../../src/image/yaoyiyao.png);
+       }
+       .log-con-r{
+           width: 402px;
+           height: 400px;
+           background:#fff;
+           float:right;
+           border:1px solid #ccc;
+           border-top:2px solid red;
+           #regist_container{
+                width: 402px;
+                text-align: center;
+                //display: none;
+                margin-top: 50px;
+                margin-left:30px;
+                #lab1{
+                    width: 330px;
+                    text-align: left;
+                    font-family:'微软雅黑';
+                    #lab_login {
+                        font-size: 20px;
+                        height: 30px;
+                        color: #000000;
+                    }
+                    #lab_toLogin{
+                        font-size: 14px;
+                        line-height: 30px;
+                        float: right;
+                        color: #000000;
+                    }
+                }
+                #form_container2 {
+                    width: 330px;
+                    height: 300px;
+                    border-bottom: 1px solid #FFFFFF;
+                    position: relative;
+                    .form-control-box1{
+                        width:298px;
+                        height: 32px;
+                        border:1px solid #ccc;
+                        text-align: center;
+                        margin:15px 0 15px 15px;
+                        #regist_account{
+                            width: 248px;
+                            height: 30px;
+                            color:#666;
+                            border:none;
+                            outline:none;
+                            font-size:12px;
+                            padding-left:10px;
+                        } 
+                        span{
+                            color:#ccc;
+                            font-size:22px;
+                            border-right:1px solid #ccc;
+                        }
+                    }
+                    #test{
+                        width:298px;
+                        height:32px;
+                        border:1px solid #ccc;
+                        text-align:center;
+                        color:red;
+                        line-height: 32px;
+                    }
+                    .form-control-box2{
+                        width:188px;
+                        height: 32px;
+                        border:1px solid #ccc;
+                        text-align: left;
+                        margin:15px 0 0px 15px;
+                        #regist_vcode{
+                            width: 110px;
+                            height: 30px;
+                            color:#666;
+                            border:none;
+                            outline:none;
+                            font-size:12px;
+                            padding-left:10px;
+                        } 
+                        span{
+                            color:#ccc;
+                            font-size:18px;
+                            border-right:1px solid #ccc;
+                            padding:0 6px;
+                        }
+                    }
+                    #getVCode{
+                        width: 100px;
+                        height: 30px;
+                        border:1px solid red;
+                        color:red;
+                        position: absolute;
+                        top:138px;
+                        left:214px;
+                        &:hover{
+                            color:#fff;
+                            background:red;
+                        }
+                    }
+                    .form-control-box3{
+                        width:298px;
+                        height: 32px;
+                        border:1px solid #ccc;
+                        text-align: center;
+                        margin:15px 0 15px 15px;
+                        position: relative;
+                        #regist_password1{
+                            width: 248px;
+                            height: 30px;
+                            color:#666;
+                            border:none;
+                            outline:none;
+                            font-size:12px;
+                            padding-left:10px;
+                        } 
+                        span{
+                            color:#ccc;
+                            font-size:22px;
+                            border-right:1px solid #ccc;
+                        }
+                        #eye{
+                            border:none;
+                            background:url(../../src/image/xiaoyanjing.jpg) 0px -65px;
+                            width: 14px;
+                            height: 13px;
+                            position: absolute;
+                            top:10px;
+                            right:8px;
+                        }
+                    }
+                    .register-top-box{
+                        margin:15px 0px 15px 15px;
+                        text-align: left;
+                        width:298px;
+                        position: relative;
+                        input{
+                            margin-right:5px;
+                        }
+                        span{
+                            font-size:12px;
+                            color:#ccc;
+                            position: absolute;
+                            top:0px;
+                        }
+                        a{
+                            color:red;
+                            font-size:12px;
+                            float:right;
+                        }
+                    }
+                     #regist_btn{
+                        width: 298px;
+                        height: 30px;
+                        background:red;
+                    }
+                    p{
+                        width:298px;
+                        font-size:11px;
+                        color:#ccc;
+                        text-align: left;
+                        margin:15px 0 15px 15px;
+                        a{
+                            color:deeppink;
+                        }
+                    }
+                    .input-p2{
+                        a{
+                        }
+                        .a1{
+                            width: 25px;
+                            height: 24px;
+                            display: inline-block;
+                            //background: #129FEA;
+                            background:url(../../src/image/jinglingtu.png) 0 0;
+                        }
+                        .a2{
+                            width: 25px;
+                            height: 24px;
+                            display: inline-block;
+                            //background: #129FEA;
+                            background:url(../../src/image/jinglingtu.png) -292px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
